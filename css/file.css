@@ -1,0 +1,108 @@
+
+body {
+	background-color: #D2D7D3;
+	
+}
+
+.container {
+	padding-left: 0;
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.name {
+	 margin: 4px 0 10px 0;
+        font-weight: bold;
+       
+        padding-top: 5px;
+}
+.image {
+
+background-color: #EEEEEE;
+height: 100px;
+margin: 1.25%;
+border-style: solid;
+border-color: #D2D7D3;
+border-width: .5px;
+border-radius: 5%;
+
+}
+
+li {
+	width: 350px;
+}
+
+#numP {
+	width: 50px;
+}
+.image .avatar {
+	 width: auto;
+	 height: 100%;
+       
+        float: left;
+        margin-right: 14px;
+        border-top-left-radius: 5% ;
+        border-bottom-left-radius: 5%;
+}
+
+.person{
+
+
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+ 
+  
+}
+
+.phone {
+
+	margin-top: 15px;
+}
+
+.email {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+span {
+	display: block;
+}
+
+#header {
+	max-width: 1400px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+form {
+	max-width: 1400px;
+	margin: auto;
+}
+
+
+.modalDialog {
+position:absolute;
+  background: #BDC3C7;
+  border-radius:14px;
+  padding:8px;
+  width: 400px;
+  height: 400px;
+left: 32%;
+ border-radius:8px;
+}
+
+
+.moCont {
+     width:200px;
+     margin: 25px auto;
+    
+   
+     text-align:center;
+}
+
+.moCont img{
+	border-radius: 50%;
+	width: 75%;
+}
