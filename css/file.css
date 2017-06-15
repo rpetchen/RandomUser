@@ -1,108 +1,114 @@
-
+.image:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
 body {
-	background-color: #D2D7D3;
-	
+    background-color: #D2D7D3;
 }
-
 .container {
-	padding-left: 0;
-	max-width: 1400px;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
+    padding-left: 0;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
-
 .name {
-	 margin: 4px 0 10px 0;
-        font-weight: bold;
-       
-        padding-top: 5px;
+    margin: 4px 0 10px 0;
+    font-weight: bold;
+    padding-top: 5px;
 }
 .image {
-
-background-color: #EEEEEE;
-height: 100px;
-margin: 1.25%;
-border-style: solid;
-border-color: #D2D7D3;
-border-width: .5px;
-border-radius: 5%;
-
+    background-color: #EEEEEE;
+    height: 100px;
+    margin: 1.25%;
+    border-style: solid;
+    border-color: #D2D7D3;
+    border-width: .5px;
+    border-radius: 5%;
+    cursor: pointer;
 }
-
 li {
-	width: 350px;
+    width: 350px;
 }
-
 #numP {
-	width: 50px;
+    width: 50px;
 }
 .image .avatar {
-	 width: auto;
-	 height: 100%;
-       
-        float: left;
-        margin-right: 14px;
-        border-top-left-radius: 5% ;
-        border-bottom-left-radius: 5%;
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-right: 14px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
-
-.person{
-
-
+.person {
     margin: 0 0 20px 0;
     padding: 0 0 20px 0;
- 
-  
 }
-
 .phone {
-
-	margin-top: 15px;
+    margin-top: 15px;
 }
-
 .email {
-	margin-top: 20px;
-	margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-
 span {
-	display: block;
+    display: block;
 }
-
 #header {
-	max-width: 1400px;
-	margin: auto;
-	margin-bottom: 20px;
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 form {
-	max-width: 1400px;
-	margin: auto;
+    max-width: 1400px;
+    margin: auto;
 }
-
-
 .modalDialog {
-position:absolute;
-  background: #BDC3C7;
-  border-radius:14px;
-  padding:8px;
-  width: 400px;
-  height: 400px;
-left: 32%;
- border-radius:8px;
+    position: fixed;
+    background: #EEEEEE;
+    border-radius: 14px;
+    padding: 8px;
+    width: 400px;
+    height: 420px;
+    left: 32%;
+    border-radius: 8px;
 }
-
-
 .moCont {
-     width:200px;
-     margin: 25px auto;
-    
-   
-     text-align:center;
+    width: 200px;
+    margin: 25px auto;
+    text-align: center;
 }
-
-.moCont img{
-	border-radius: 50%;
-	width: 75%;
+.moCont img {
+    border-radius: 50%;
+    width: 75%;
+}
+#close {
+    margin-left: 95%;
+    z-index: 2000;
+    cursor: pointer;
+}
+.arrow {
+    position: absolute;
+    display: inline;
+    font-size: 40px;
+    top: 0;
+    left: 40%;
+}
+#right {
+    margin-left: 50px;
+    cursor: pointer;
+}
+#left {
+    cursor: pointer;
+}
+hr {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    left: -50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-color: #f3f6db;
 }
