@@ -3,7 +3,7 @@ $(document).ready(function() {
     var index = '';
 //default options for ajax call
     var options = {
-        results: 10,
+        results: 12,
         nat: "US",
         gender: " ",
     };
